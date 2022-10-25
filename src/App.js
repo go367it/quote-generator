@@ -10,7 +10,7 @@ export default function App() {
   useEffect(() => {
     const config = {
       url: "https://zenquotes.io/api/quotes",
-      method: "get"
+      method: "get",
     };
     axios(config)
       .then((res) => {
